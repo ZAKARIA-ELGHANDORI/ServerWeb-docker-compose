@@ -17,9 +17,10 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: "root_password"
-      MYSQL_ALLOW_EMPTY_PASSWORD: "password"
-      MYSQL_RANDOM_ROOT_PASSWORD: "password"
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: TEST
+      MYSQL_USER: root
+      MYSL_PASSWORD: root
     ports:
       - "9906:3306"
     networks: 
