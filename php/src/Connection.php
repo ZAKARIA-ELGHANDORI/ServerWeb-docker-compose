@@ -2,11 +2,11 @@
 
 $username="root"; 
   
-$pass="root";
+$pass="ZAKARIA2001";
  
 $host="localhost"; 
     
-$db="APP1"; 
+$db="ADV"; 
    
 $dsn="mysql:host=$host;dbname=$db";
 $cnx= new PDO($dsn , $username , $pass); 
@@ -14,7 +14,7 @@ $cnx= new PDO($dsn , $username , $pass);
 try { 
     $cnx= new PDO($dsn , $username , $pass);
     if($cnx) {
-        echo "Success"; 
+        echo ""; 
     }
 } catch(PDOEXception $e) {
     $error_cnx = $e->getMessage(); 
