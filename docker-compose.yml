@@ -19,7 +19,6 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: TEST
-      MYSQL_USER: root
       MYSL_PASSWORD: root
     ports:
       - "9906:3306"
