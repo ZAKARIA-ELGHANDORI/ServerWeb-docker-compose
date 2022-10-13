@@ -1,10 +1,10 @@
 <?php 
 
-$username="root"; 
+$username=""; 
   
-$pass="ZAKARIA2001";
+$pass="root";
  
-$host="localhost"; 
+$host="107.20.27.211:8082"; 
     
 $db="ADV"; 
    
